@@ -1,0 +1,23 @@
+[[MPICH]]
+arch = "x86_64"
+git-tree-sha1 = "94505337f0cef35eceb58007623103122c7a5d80"
+lazy = true
+libgfortran_version = "5.0.0"
+mpi = "mpich"
+os = "macos"
+
+    [[MPICH.download]]
+    sha256 = "2b615a9868a7dae29afa37ea9845224814a0a045547f743c5e754629aeba74e4"
+    url = "https://github.com/giordano/MPICH_debug_ch4_jll.jl/releases/download/MPICH-v4.1.0+2/MPICH.v4.1.0.x86_64-apple-darwin-libgfortran5-mpi+mpich.tar.gz"
+[[MPICH]]
+arch = "x86_64"
+git-tree-sha1 = "438b71472ff15106624c9ec1bf26706227e678ea"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[MPICH.download]]
+    sha256 = "3f97713f60729489dba64a1585ec9bae4fd473c87cd2d78b94d1ccdf9af5555c"
+    url = "https://github.com/giordano/MPICH_debug_ch4_jll.jl/releases/download/MPICH-v4.1.0+2/MPICH.v4.1.0.x86_64-linux-gnu-libgfortran5-mpi+mpich.tar.gz"
